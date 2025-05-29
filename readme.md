@@ -3,6 +3,9 @@
 This project is a fully automated agentic system for processing health insurance claims by extracting, validating, and adjudicating information from medical documents (PDFs like bills, discharge summaries, ID cards) using Gemini LLM and CrewAI agents.
 
 ---
+### Loom Video: 
+
+https://www.loom.com/share/72d5e7b24e5545b099ae3a2080e450f6?sid=d88cded3-8845-480c-9f00-05e4dfb91eeb
 
 ##  Architecture Overview
 
