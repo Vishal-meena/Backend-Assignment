@@ -1,10 +1,10 @@
-# 🏥 AI-Powered Medical Claim Processing System
+#  AI-Powered Medical Claim Processing System
 
 This project is a fully automated agentic system for processing health insurance claims by extracting, validating, and adjudicating information from medical documents (PDFs like bills, discharge summaries, ID cards) using Gemini LLM and CrewAI agents.
 
 ---
 
-## 🚀 Architecture Overview
+##  Architecture Overview
 
 The system is built using:
 
@@ -14,7 +14,7 @@ The system is built using:
 - **PyPDF2** – for PDF text extraction
 - **Pydantic** – for structured response models
 
-### 🔁 Pipeline Flow
+###  Pipeline Flow
 
 1. **PDF Text Extraction**  
    Raw PDFs are processed using PyPDF2 to extract text.
@@ -38,18 +38,21 @@ The system is built using:
 
 ---
 
-## 🤖 AI Tools Used
+### AI Tools Used
 
-### ✅ Gemini-Pro
+###  Gemini-Pro
 Used via `langchain_google_genai.ChatGoogleGenerativeAI` for:
 - Document classification
 - Structured extraction from unstructured text
 - Logical validation and decision-making
 
-### 🧠 Vector DB (ChromaDB)
+###  Vector DB (ChromaDB)
 Used to store and retrieve validation rules, such as:
 - Required fields in a bill or discharge summary
 - Consistency checks across documents
 
 ---
+### Run The system
+
+`python main.py`
 
